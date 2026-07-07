@@ -13,8 +13,7 @@ The primary goal of this project was to move beyond simple descriptive statistic
 ---
 
 ## Data Source
-The analysis is based on a comprehensive global supply chain dataset sourced from **Kaggle**. It contains over 180,000 transaction records detailing fulfillment operations between 2015 and 2018. The dataset includes multiple dimensions such as geographic regions, shipping modes (e.g., Standard Class, First Class), product departments, and exact order-to-shipping timelines, providing a robust foundation for identifying operational bottlenecks.
-
+The analysis is based on a comprehensive global supply chain dataset sourced from [Kaggle](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis). It contains over 180,000 transaction records detailing fulfillment operations between 2015 and 2018. The dataset includes multiple dimensions such as geographic regions, shipping modes (e.g., Standard Class, First Class), product departments, and exact order-to-shipping timelines, providing a robust foundation for identifying operational bottlenecks.
 ---
 
 ## Dashboard Previews
