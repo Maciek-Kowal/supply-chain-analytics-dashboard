@@ -26,7 +26,7 @@ The analysis is based on a comprehensive global supply chain dataset sourced fro
 ### 2. Geographic Risk Matrix
 *(Identifying high-volume, high-delay clusters across the globe.)*
 
-![Risk Matrix](images/Geographic_Performance.jpg)
+![Risk Matrix](images/Geographic_Performance.png)
 
 ### 3. AI-Driven Root Cause Analysis
 *(Decomposition tree identifying the exact bottlenecks in the logistics path.)*
