@@ -49,7 +49,7 @@ To ensure accuracy and performance, I followed a strict data engineering and mod
 ## The Biggest Challenge & Overcoming It
 
 **The Challenge: Shifting from Descriptive to Diagnostic Analytics**
-Initially, the data naturally guided the visuals toward highlighting successes—showing total orders and overall on-time delivery. However, presenting an OTD rate of 45.17% without explaining the *why* does not solve the business problem. The hardest part of this project was re-engineering the analytical focus from "what went right" to tracking "what went wrong."
+Initially, the data naturally guided the visuals toward highlighting successes showing total orders and overall on-time delivery. However, presenting an OTD rate of 45.17% without explaining the *why* does not solve the business problem. The hardest part of this project was re-engineering the analytical focus from "what went right" to tracking "what went wrong."
 
 **The Solution:**
 I had to write custom DAX logic to isolate the negative variance (`Late Orders`) and feed that specific measure into Power BI's AI-driven Decomposition Tree. By explicitly commanding the AI to find the "Highest Value" of delays across multiple dimensions (Shipping Mode, Region, Department), the tool dynamically mapped out the exact failure paths. This shifted the dashboard from a static reporting screen into an interactive diagnostic engine, ultimately revealing that the "Standard Class" shipping mode was the primary operational bottleneck. 
@@ -67,14 +67,14 @@ I had to write custom DAX logic to isolate the negative variance (`Late Orders`)
 
 To ensure these data insights are actionable for business stakeholders, I translated the dashboard findings into a concise, 6-slide executive presentation. 
 
-The presentation bridges the gap between technical data modeling and business strategy by focusing strictly on the bottom line. It highlights the core performance gap—specifically that the on-time delivery rate sits under the 50% target at 45.17% and walks stakeholders through the geographic risk factors. 
+The presentation bridges the gap between technical data modeling and business strategy by focusing strictly on the bottom line. It highlights the core performance gap specifically that the on-time delivery rate sits under the 50% target at 45.17% and walks stakeholders through the geographic risk factors. 
 
 Most importantly, it concludes with targeted operational next steps, such as auditing Standard Class logistics partners operating in the highest-risk top-right quadrant.
 
 <p align="center">
-  <img src="slide2.png" width="32%" />
-  <img src="slide4.png" width="32%" />
-  <img src="slide6.png" width="32%" />
+  <img src="images/slide2.png" width="32%" />
+  <img src="images/slide4.png" width="32%" />
+  <img src="images/slide6.png" width="32%" />
 </p>
 
 *Note: [Click here to view the full Executive Summary Presentation (PDF)](Executive%20Summary.pdf).*
